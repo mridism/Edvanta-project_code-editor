@@ -13,7 +13,7 @@ Clone the repository:
 git clone https://github.com/mridism/Edvanta-project_code-editor.git
 
 Navigate to the project directory:
-cd code-editor-app
+cd Edvanta project
 
 Install the dependencies:
 npm install
