@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Block: editor */
+.editor {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Element: textarea inside editor block */
+.editor__textarea {
+    width: 100%;
+    height: 300px;
+    padding: -5px;
+    border: 1px solid #ccc;
+    font-family: "Courier New", Courier, monospace;
+    resize: none;
+}
+
+/* Element: buttons container inside editor block */
+.editor__buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Element: button inside editor block */
+.editor__button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Modifier: copy button inside editor block */
+.editor__button--copy:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Modifier: save button inside editor block */
+.editor__button--save:hover {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+/* Modifier: lock button inside editor block */
+.editor__button--lock:hover {
+    background-color: #ffc107;
+    color: #fff;
+}
